@@ -1,7 +1,6 @@
 #Automation
 from asyncio.proactor_events import _ProactorBaseWritePipeTransport
 from distutils.command.build_ext import extension_name_re
-import os
 import shutil
 path="D:\My Photos\April-22"
 # #go inside path
@@ -29,7 +28,7 @@ def moving_files():
 
     for file in os.listdir('.'):
         filename, file_extension = os.path.splitext(file)
-        if file_extension in ['.jpg', '.PNG', '.JPG', '.jpeg']:
+        if file_extension in ['.jpg', '.PNG', '.JPG', '.jpeg','.png']:
             shutil.move(file,'images')
             print(f'moving: {file}')
 
@@ -38,7 +37,7 @@ def moving_files():
             print(f'moving: {file}')
    
 #list_file_extentions()
-#moving_files()   
+moving_files()   
 
    
         

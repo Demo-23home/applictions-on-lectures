@@ -1,0 +1,17 @@
+p{background-color: darkturquoise;}
+.myheading{background-color: fuchsia;
+color: black;
+font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+body{background-color:deepskyblue;}
+#myheading1{
+    background-color: black;
+    color: white;
+   
+    
+}
+.playing {
+    display: inline;
+    background:green;
+    padding: 50 50 50 50;
+}
