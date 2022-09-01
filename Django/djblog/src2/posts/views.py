@@ -30,4 +30,4 @@ def edit_post(request,id):
     else:
         print('in else')
         form=Postform(instance=single)
-    return render(request,'new.html',{'form':form})
+    return render(request,'edit.html',{'form':form})
